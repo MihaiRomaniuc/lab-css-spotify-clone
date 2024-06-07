@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 20px;
+}
+
+.nav-logo-img {
+    height: 45px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+    color: black;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: #00B172;
+}
+
+.top-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.landing-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.text-overlay {
+    position: relative; 
+    text-align: center;
+    color: white; 
+    z-index: 1;
+}
+
+.title {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.4em;
+    margin: 0 20vw;
+    font-weight: lighter;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.container-title-2 {
+    font-size: 1.5em;
+    padding-top: 20px;
+    width: fit-content;
+    border-bottom: 5px #00B172 solid;
+}
+
+.box-container {
+    padding: 40px 3vw;
+    width: 97vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.box {
+    width: 25vw;
+    height: 35vh;
+    border: #eef221 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.box-img {
+    width: 100px;
+}
+
+.box-title {
+    color: #00B172;
+    font-size: 1.5em;
+}
+
+.container-end {
+    background-color: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    height: 90vh;
+    margin: 0 3vw;
+    color: #FFF;
+    padding: 7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-title-3 {
+    border-bottom: 5px #FFF solid;
+    width: fit-content;
+}
+
+.box-container-footer {
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-footer {
+    width: 25vw;
+    font-size: 1em;
+}
+
+.img-app-container {
+    height: 65vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.img-app {
+    width: 20vw;
+}
+
+.title-3 {
+    font-size: 2.2em;
+}
+
+.title-container {
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+@media (width <= 480) {
+
+}
+
+@media (480 < width <= 768) {
+
+}
